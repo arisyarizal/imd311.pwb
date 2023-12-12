@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>   
+<title> HTML Index</title>
+</head>
+<body bgcolor="#efcfb4">
+<bgsound src="music\talksexy.mp3"></bgsound>
+  <img src="images\logo.png.png" alt="Logo AR" width="10%"> 
+        </a>
+  
+    <table align="center">
+    
+        <table border="4" align="center" cellpadding="10" bgcolor="#E9967A">
+        <tr>
+            <th><button onclick="location.href='index.html'">HOME</button></th>
+            <th><button onclick="location.href='aboutme.html'">ABOUT ME</button></th>
+            <th><button onclick="location.href='education.html'">EDUCATION</button></th>
+            <th><button onclick="location.href='music.html'">MY PLAYLIST</button></th>
+            <th><button onclick="location.href='friends.html'">FRIENDS</button></th>
+        </tr>
+    </table>
+    <center><h2> WELCOME TO MY PERSONAL WEBSITE</h2> 
+        
+        
+        <div class="slideshow">
+          <div class="slideshow-container" align="center">
+        
+        <div class="mySlides fade">
+          <img src="images\self1.jpg" style="width:20%" style="length:30%" >
+        </div>
+      
+        <div class="mySlides fade">
+          <img src="images\self2.jpg" style="width:20%" style="length:30%">
+        </div>
+        <br><br>
+
+        <div class="mySlides fade">
+            <img src="images\self3.jpg"style="width:20%"  style="length:30%">
+        </div>
+        <br><br>
+
+        <div class="mySlides fade">
+            <img src="images\self5.jpg" style="width:20%" style="length:30%"> 
+        </div>
+        <br><br>
+        
+        <div style="text-align:center">
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+        </div>
+        
+        <center><h2>My Favourite Quotes</h2>      
+        <script>
+        let slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides,2000); // Change image every 2 seconds
+        }
+        </script>
+
+<div class="row">
+    <div class="column">
+      <img src="images\quotes6.jpg" style="width:40%">
+      <img src="images\quotes5.jpg" style="width:40%">
+      <img src="images\quotes4.jpg" style="width:40%" >
+      <img src="images\quotes3.jpg" style="width:40%">
+      <img src="images\quotes2.jpg" style="width:40%">
+      <img src="images\quotes1.jpg" style="width:40%">
+    
+    </div>
+    
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Instagram Link</title>
+</head>
+<body>
+
+  <a href="https://instagram.com/arsyarzal_?igshid=NzZlODBkYWE4Ng%3D%3D&utm_source=qr" target="_blank" class="instagram-link-button">
+    <img src="images\instalogo.png" style="width:7%" alt="Instagram">
+   </a>
+
+   <a href="https://www.tiktok.com/@astersyaaa_?_t=8i7eExU2sgJ&_r=1" target="_blank" class="tiktok-link-button">
+    <img src="images\tiktoklogo.png" style="width:10%" alt="Tiktok">
+   </a>
+
+<audio src="music\bgsound.mp3" autoplay loop>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer Example</title>
+    <style>
+    .footer {
+      background-color: purple;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+    </style>
+   </head>
+   <body>
+
+    <!-- Your other webpage elements go here -->
+    <footer class="footer">
+      <p>Copyright &copy; 2023 Nur Arisya Adina. All rights reserved.</p>
+    </footer>   
+
+
+
+</body>
+</html>

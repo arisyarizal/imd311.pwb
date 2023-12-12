@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> HTML About me</title>
+</head>
+<body bgcolor="#efcfb4">
+<img src="images\logo.png.png" alt="Logo AR" width="10%"> 
+        </a>
+  
+<center>  
+    <table align="center">
+    
+      <table border="4" align="center" cellpadding="10" bgcolor="#E9967A">
+        <tr>
+            <th><button onclick="location.href='index.html'">HOME</button></th>
+            <th><button onclick="location.href='aboutme.html'">ABOUT ME</button></th>
+            <th><button onclick="location.href='education.html'">EDUCATION</button></th>
+            <th><button onclick="location.href='music.html'">MY PLAYLIST</button></th>
+            <th><button onclick="location.href='friends.html'">FRIENDS</button></th>
+        </tr>
+        </table> 
+        <br>
+        
+        <h1>About me</h1>
+
+        <h2 font align="center"></h2><i></i>MYSELF</i></b></h2>
+        <div class="slideshow-container" align="center" hspace="40">
+
+            <div class="mySlides fade">
+              <img src="images\myself7.jpg" style="width:25%" style="length:30%">
+            </div>
+            
+            <div class="mySlides fade">
+              <img src= "images\myself3.jpg" style="width:25%" style="length:30%">
+            </div>
+            
+            <div class="mySlides fade">
+                <img src="images\myself1.jpg"  style="width:25%" style="length:30%">
+            </div>
+            
+            <div class="mySlides fade">
+                <img src="images\image5.jpg.jpg" style="width:25%" style="length:30%">
+            </div>
+            
+            <div class="mySlides fade">
+                <img src="images\myself5.jpg" style="width:20%" style="length:30%">
+            </div>
+            
+            <div class="mySlides fade">
+                <img src="images\myself2.jpg" style="width:20%" style="length:30%">
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+              </div>
+              
+              <script>
+              let slideIndex = 0;
+              showSlides();
+              
+              function showSlides() {
+                let i;
+                let slides = document.getElementsByClassName("mySlides");
+                let dots = document.getElementsByClassName("dot");
+                for (i = 0; i < slides.length; i++) {
+                  slides[i].style.display = "none";  
+                }
+                slideIndex++;
+                if (slideIndex > slides.length) {slideIndex = 1}    
+                for (i = 0; i < dots.length; i++) {
+                  dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex-1].style.display = "block";  
+                dots[slideIndex-1].className += "active";
+                setTimeout(showSlides,2000); // Change image every 2 seconds
+              }
+            </script>
+
+<p align="justify" line height="150%" align="center"></b>
+  <center>   
+  <br>Nur Arisya Adina is how I go by. Growing up, I was my family's second kid. Among my mother's children, 
+
+  <br>I was the closest. Together with my sister, I have a brother. Kedah is where I was raised and where
+  
+ <br>I was born. Being an introvert with a shy personality, I tend to be quiet around strangers but enjoy 
+ 
+  <br>being with close friends and family. Few of the people closest to me helped me succeed in whatever I 
+  
+  <br>set out to do, even though they weren't always there to support me. Sports really interest me. Netball 
+  
+  <br>is the sport of interest, but I enjoy watching a wide variety of sports on television. I participated 
+  
+  <br>in nearly every athletic event the school hosted when I was in school.</b></p> 
+
+<!DOCTYPE html> 
+<html> 
+<body> 
+
+<div style="text-align:center"> 
+  <button onclick="playPause()">Play/Pause</button> 
+  <button onclick="makeBig()">Big</button>
+  <button onclick="makeSmall()">Small</button>
+  <button onclick="makeNormal()">Normal</button>
+  <br><br>
+  <video id="video1" width="420">
+    <source src="video\video.mp4" type="video/mp4">
+    <source src="video\video.mp4" type="video/ogg">
+    Your browser does not support HTML video.
+  </video>
+</div> 
+
+<script> 
+var myVideo = document.getElementById("video1"); 
+
+function playPause() { 
+  if (myVideo.paused) 
+    myVideo.play(); 
+  else 
+    myVideo.pause(); 
+} 
+
+function makeBig() { 
+    myVideo.width = 560; 
+} 
+
+function makeSmall() { 
+    myVideo.width = 320; 
+} 
+
+function makeNormal() { 
+    myVideo.width = 420; 
+} 
+</script> 
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Footer Example</title>
+<style>
+.footer {
+  background-color: purple;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+</style>
+</head>
+<body>
+
+  <!-- Your other webpage elements go here -->
+  <footer class="footer">
+    <p>Copyright &copy; 2023 Nur Arisya Adina. All rights reserved.</p>
+  </footer>   
+
+</body> 
+</html>
+
+    
